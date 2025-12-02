@@ -20,6 +20,7 @@ Dependencies:
 
 ## Project Layout
 
+```
 project/
     src/
         __init__.py
@@ -33,6 +34,7 @@ project/
         plotting.py               # Minimal plotting utilities
     example_run.py                # Example
     README.txt
+```
 
 ## Spline-Based Reconstruction Methods
 
