@@ -1,14 +1,14 @@
 # In Situ Quantum Analog Pulse Characterization via Structured Signal Processing
 
 This is the support code for the Paper: In Situ Quantum Analog Pulse 
-Characterization via Structured Signal Processing. By combining QSP 
-with a logical-level analog–digital mapping paradigm, our method 
-reconstructs a smooth pulse directly from queries of the time-ordered 
-propagator, without requiring mid-circuit measurements or additional 
+Characterization via Structured Signal Processing. By combining Quantum 
+Signal Processing (QSP) with a logical-level analog–digital mapping paradigm, 
+our method reconstructs a smooth pulse directly from queries of the time-
+ordered propagator, without requiring mid-circuit measurements or additional 
 evolution. The code is organized under the `src/` directory and includes 
 an example script `example_run.py` that demonstrates a full workflow.
 
-1. Installation
+## Installation
 
 This repository is structured as a standard Python project.
 
@@ -18,7 +18,7 @@ Dependencies:
     scipy
     matplotlib
 
-2. Project Layout
+## Project Layout
 
 project/
     src/
@@ -34,7 +34,7 @@ project/
     example_run.py                # Example
     README.txt
 
-3. Spline-Based Reconstruction Methods
+## Spline-Based Reconstruction Methods
 
 There are two main methods provided in (src/signal_reconstruction.py).
 
@@ -60,7 +60,7 @@ Public API Example:
         avg_to_point=True
     )
 
-4. Example: Cosine Pulse
+## Example: Cosine Pulse
 
 The file `example_run.py` demonstrates an end-to-end reconstruction of
 
