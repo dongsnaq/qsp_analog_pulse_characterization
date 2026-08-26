@@ -17,6 +17,7 @@ Dependencies:
     numpy
     scipy
     matplotlib
+    pandas
 
 ## Project Layout
 
@@ -87,3 +88,10 @@ Workflow in example_run.py:
          - pointwise error
 
 You will see a two-row matplotlib figure.
+
+## Numerical source data
+
+The `data/` directory contains numerical source data for the main manuscript
+figures and scripts that reproduce the corresponding plots. These plotting
+scripts read the provided tables directly and do not rerun the numerical
+simulations.

@@ -1,0 +1,25 @@
+{
+  "T": 1.0,
+  "L_values": [
+    50,
+    100,
+    200
+  ],
+  "L_perturb": 100,
+  "perturbation_strength": 0.5,
+  "perturbation_seed": 123,
+  "tomography_seed": 42,
+  "depolarizing_fidelity_alpha": 0.9,
+  "configurations": {
+    "delta_0.01_M_10000": {
+      "delta": 0.01,
+      "M": 10000
+    },
+    "delta_0.001_M_1000000": {
+      "delta": 0.001,
+      "M": 1000000
+    }
+  },
+  "rk4_steps": 400,
+  "time_points": 2000
+}
